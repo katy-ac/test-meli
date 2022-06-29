@@ -1,0 +1,21 @@
+{
+  "name": "test-meli",
+  "description": "Mono-respository with React client, express server and shared typescript module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/katyarag/test-meli.git",
+  "author": "Katia Aragon <katia.aragon.c@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "start": "yarn workspaces foreach -pi run start",
+    "build": "yarn workspaces foreach -pti run build",
+    "start:server": "yarn workspace server run start",
+    "start:client": "yarn workspace client run start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
