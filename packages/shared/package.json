@@ -2,7 +2,7 @@
   "name": "shared",
   "version": "1.0.0",
   "main": "./dist/index.js",
-  "repository": "https://github.com/katyarag/test-meli.git",
+  "repository": "https://github.com/katy-ac/test-meli.git",
   "author": "Katia Aragon <katia.aragon.c@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.2.1",
